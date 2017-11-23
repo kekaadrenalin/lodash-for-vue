@@ -1,0 +1,36 @@
+{
+  "name": "lodash-for-vue",
+  "version": "1.0.0",
+  "description": "A small plugin for integrating lodash into Vue.js",
+  "main": "dist/vue-lodash.min.js",
+  "scripts": {
+    "test": "echo \"There is currently no test case for this plugin\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kekaadrenalin/vue-lodash.git"
+  },
+  "keywords": [
+    "vue",
+    "lodash",
+    "plugin"
+  ],
+  "author": "Vlad (kekaadrenalin)",
+  "license": "AFL-2.0",
+  "peerDependencies": {
+    "vue": ">= 2.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/kekaadrenalin/vue-lodash/issues"
+  },
+  "homepage": "https://github.com/kekaadrenalin/vue-lodash#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.0",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglifyjs": "^0.6.2",
+    "lodash": "^4.17.4"
+  }
+}
