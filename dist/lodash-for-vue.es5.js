@@ -12,11 +12,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var VueLodash = {
   install: function install(Vue) {
-    var name = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '$lodash';
-    var lodash = arguments[2];
-
-    Vue[name] = lodash;
-    Object.defineProperty(Vue.prototype, name, { value: lodash });
+    Vue.$lodash = _lodash2.default;
+    Object.defineProperty(Vue.prototype, '$lodash', { value: _lodash2.default });
     Vue.mixin({
       mounted: function mounted() {
         // Just tell you that it is mounted
