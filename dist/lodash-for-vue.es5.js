@@ -16,13 +16,7 @@ var VueLodash = {
     var lodash = arguments[2];
 
     Vue[name] = lodash;
-    Object.defineProperties(Vue.prototype, {
-      name: {
-        get: function get() {
-          return lodash;
-        }
-      }
-    });
+    Object.defineProperty(Vue.prototype, name, { value: lodash });
     Vue.mixin({
       mounted: function mounted() {
         // Just tell you that it is mounted

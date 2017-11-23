@@ -3,13 +3,7 @@ import lodash  from 'lodash'
 const VueLodash = {
   install (Vue, name = '$lodash', lodash) {
     Vue[name] = lodash
-    Object.defineProperties(Vue.prototype, {
-      name: {
-        get() {
-          return lodash
-        }
-      }
-    })
+    Object.defineProperty(Vue.prototype, name, { value: lodash })
     Vue.mixin({
       mounted() {
         // Just tell you that it is mounted
