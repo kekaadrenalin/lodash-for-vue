@@ -1,6 +1,6 @@
 {
   "name": "lodash-for-vue",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A small plugin for integrating lodash into Vue.js",
   "main": "dist/lodash-for-vue.min.js",
   "scripts": {
@@ -30,7 +30,9 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-rename": "^1.2.2",
-    "gulp-uglifyjs": "^0.6.2",
+    "gulp-uglifyjs": "^0.6.2"
+  },
+  "dependencies": {
     "lodash": "^4.17.4"
   }
 }
