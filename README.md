@@ -1,5 +1,7 @@
 # lodash-for-vue
-A small wrapper for integrating lodash to Vuejs
+[![npm version](https://img.shields.io/npm/v/lodash-for-vue.svg?style=flat)](https://www.npmjs.com/package/lodash-for-vue)
+
+A small wrapper for integrating [lodash](https://github.com/lodash/lodash#lodash-v4174) to Vuejs
 (Inspired by vue-axios plugin by imcvampire)
 
 ## How to install:
