@@ -1,13 +1,14 @@
 # lodash-for-vue
 [![npm version](https://img.shields.io/npm/v/lodash-for-vue.svg?style=flat)](https://www.npmjs.com/package/lodash-for-vue)
+[![downloads](https://img.shields.io/npm/dm/lodash-for-vue.svg?style=flat)](https://www.npmjs.com/package/lodash-for-vue)
 
-A small wrapper for integrating [lodash](https://github.com/lodash/lodash#lodash-v4174) to Vuejs
-(Inspired by vue-axios plugin by imcvampire)
+>A small wrapper for integrating [lodash](https://github.com/lodash/lodash#lodash-v4174) to [Vue.js](https://github.com/vuejs/vue)
+(inspired by vue-axios plugin by imcvampire)
 
 ## How to install:
 ### CommonJS:
 ```
-npm install --save lodash-for-vue
+npm install lodash-for-vue --save
 ```
 
 And in your entry file:
